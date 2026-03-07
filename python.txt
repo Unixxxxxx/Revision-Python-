@@ -1,0 +1,21 @@
+ What is python and why do be use?
+Python is a high label language genreal purpose programming languge. it was created by Guido Van Rossum in 1991 to solve core problems like how do you make program fast to write, easy to read, powerfull enough for real world 
+
+Python are used by some best componet like 
+Netflix 
+NASAhn      
+
+
+	Key Terminology 
+ ..* Variables : The name contain values in memory i call variales.
+..* Data Type  : The kind of value is store 
+..* Dynamic Type : Python figerout the types for you at run time.
+..* Type Casting : Maually converting one type to another.
+..* Bytecode : Middel-step code python compile to before running.
+
+./ How python work internily?
+when you run a .py file.hear what happen behind the scene 
+	source code		you write human readeable .py file 
+	compilation 		python compiles to bYTECODE{.pyc}		and store in __pycache__/
+	interpreter 		Cpython VM exectues bytecode line by line 	run on os 
+	output 			Result apper in terminal 
