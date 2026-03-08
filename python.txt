@@ -1,13 +1,13 @@
  What is python and why do be use?
 Python is a high label language genreal purpose programming languge. it was created by Guido Van Rossum in 1991 to solve core problems like how do you make program fast to write, easy to read, powerfull enough for real world 
 
-Python are used by some best componet like 
+Python are used by some best company like 
 Netflix 
 NASAhn      
 
 
 	Key Terminology 
- ..* Variables : The name contain values in memory i call variales.
+..* Variables : The name contain values in memory i call variales.
 ..* Data Type  : The kind of value is store 
 ..* Dynamic Type : Python figerout the types for you at run time.
 ..* Type Casting : Maually converting one type to another.
@@ -19,3 +19,51 @@ when you run a .py file.hear what happen behind the scene
 	compilation 		python compiles to bYTECODE{.pyc}		and store in __pycache__/
 	interpreter 		Cpython VM exectues bytecode line by line 	run on os 
 	output 			Result apper in terminal 
+
+DAy -2 (	oPERATORS, cONDITIONAL& lOOP)
+
+OPERATORES :	Operatores are symbols or keywords that perform operations on variables and value in Programming  
+In Operators There are one ARTHMETIC OPERATIONS WHAICH perform mathematical operations like:
+
+	addition 
+	subtraction 						
+	Multiplication 					 10 * 3 # 30
+	True division (allways float) 			 10 / 3 #3.333...
+	floor division (Integer result)			 10 // 3 #3
+	Module (remainder) - very usefull 		 10%3 #1
+	Exponentiation 					 2 ** 10 #1024
+#Operator Precedence (PEMDAS): ** / // % > + _
+result  2+3*4 #12, NOT 20 
+result = (2 + 3) * 4 # 20 - use parentheses for clarity 
+
+
+COMPARISON & LOGICAL OPERATORS 
+-- 	this operators returns always True & False values in return 
+
+IDENTITY AND MEMBERSHIP OPERATORS
+identity -- USED To check whether two variables refer to the same object in memory 
+Membership Operator -- Use to check wheather a value exist in sequence like -{list, tuple, string}
+
+
+CONDITIONAL OPERATORS 
+--Coditionals are statements used to make decisions in a program based on condition.
+
+There are three condition which be used for conditionals like
+if , elif, else 
+
+LOOP 
+---Looop is used to repet a block of code multiple time until the condition is met 
+
+While loop 
+--- Repets code as long as the condition get true. 
+
+
+LOOP CONTROL:
+--- Loop Control is a statement are statements use to controle the flow of a loop, such as stopping the loop, skipping an iteration or ececuting code fter the loop end.
+
+for THAT BE USE 
+-break ---STop the current iteration and exit it 
+-continue ---Skip the current iteration and move to the next loop cycle.
+-else  ---Execute after the loop finishes normally(if loop is not stop by break)
+
+  
