@@ -67,3 +67,54 @@ for THAT BE USE
 -else  ---Execute after the loop finishes normally(if loop is not stop by break)
 
   
+
+
+
+
+
+FUNCTION 
+1.Function is Building Block of code.
+2. A function is a Named,
+3. it's a reusable block of code.
+Good Function follow the singl responsibility principle:   Do oen thing, do it well 
+
+ARG and KWARGS ------- is a Variable Arguments 
+Variable Argument are used in function to accept a variable number of arguments.
+*args ----------- Allows a functions to accepts multiple positional argument. (Store as a tuple)
+*kwargs --------- Allowa a function to accepts multiple keywords arguments . (store as a dictionary)
+
+SCOPE -----Where variables Live -----------Used when the number of argument is not fixed.
+Scope ---- Scope refers to the area or region in a program where a variable can be accessed or used.
+TYPE -------
+Local scope ---Variable is accessible inside a function only.
+Global Scope --- Variable is accessible throughout the program.
+
+LEGB Rule -----------The LEGB rule explains how python searchs for varible in different scopes.
+L --- local.
+------------------variables inside the current function.
+E --- Enclosing 
+-----------------variables in the outer function(if there is a nested function) 
+G --- Global 
+----------------variables defined at the top level of program.
+B --- Build-In
+---------------Python predefined name and function (like print, len, etc)
+python search variables in the order:
+--------------------------Local ---->Enclosing----> Global ----> Build-in.
+
+Lambda Function ------------------------Anonymous online-line 
+--------------------A Lambda function is a small anonymous(nameless)function written in a single line.
+some key Point:::::
+--Create using The lambda keyword*
+--Can have multiple input but only one expression.
+-- often used for short, simple operations.
+
+Recursion -- Functions calling Themselves.
+----A recursive function calls itself to solve a smalller version of the same problem. EVery recursive function needs:
+1. a base case taht stops th recursion,
+2. a recursive case that moves toward the base case.
+
+-------------------Recursion is a programming technique whrere a function calls itself to solve a problem.
+key point ----------
+-------------------it must have a base case to stop the function for running forever 
+
+
