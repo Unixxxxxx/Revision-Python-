@@ -118,3 +118,35 @@ key point ----------
 -------------------it must have a base case to stop the function for running forever 
 
 
+
+---------------------------------------------------------
+
+whta is OOP?
+Opp organise code around real-world 'things'(objects) rather then just procedures.it promotes code reuse, maintainability, and models complex system naturlly.
+
+if be tak about OOP pillars 
+-Encpsulation 
+-Inheritance 
+-Polymorphism 
+-Abstration 
+
+when to use OOP 
+- in Modelling real world entities (User, product,Order)
+- Large codebase with many related data + behaciour units
+- when you need multiple instances of similar things 
+-when oyu want to extend behaviour without modifying existing code
+
+
+---Class - class is a blue print or template used to create object. It define properties("Variables") and behavious("Method")
+
+---Object - An objhect is an instance of a class. it represents a real-world entity and can use the class properties and method 
+
+ENCAPSULATION --- Data Hidingh 
+-- Encaptulation is the process of building data("Variable")and methods("Function") inside a class and restricting directaccess to the data.
+
+- Inheritance -- Extending Class 
+-- Inheritance is a concept in oop where one class(child class )inherots properties and method from another classs("Parent class")
+---Purpose:-- It helps in code reuse and extending the funtionality of existing class.
+
+- Polymorpgism -- same interface, Different Behviour 
+---Polymorphism means one interface or method can have different behaviors in different situations.
