@@ -36,9 +36,6 @@ print(dog1)
 print(dog1.bark())
 print(dog1.birthday())
 
-# Using class method
 dog2 = Dog.from_string("Max, German Shepherd, 2")
 print(dog2)
-
-# Using static method
 print("Is Adult:", Dog.is_adult(dog2.age))
