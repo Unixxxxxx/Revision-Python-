@@ -28,14 +28,6 @@ class Dog:
     def is_adult(age):
         return age >= 2
 
-    # --------- Create Object ----------
-dog1 = Dog("Buddy", "Labrador", 3)
+return f"{self.__class__.__name__}({self.name})"
 
-# --------- Call Methods ----------
-print(dog1)
-print(dog1.bark())
-print(dog1.birthday())
 
-dog2 = Dog.from_string("Max, German Shepherd, 2")
-print(dog2)
-print("Is Adult:", Dog.is_adult(dog2.age))
