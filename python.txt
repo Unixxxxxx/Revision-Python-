@@ -150,3 +150,28 @@ ENCAPSULATION --- Data Hidingh
 
 - Polymorpgism -- same interface, Different Behviour 
 ---Polymorphism means one interface or method can have different behaviors in different situations.
+
+-- FILE HANDLING:--
+-Files let you store and retrive data that persists between runs. python's with statement ensures file are always properly close, even if an error occurs.
+----ANd this is working with JSON and CSV files 
+-JSON(java script object Notation) is a data fromat use to store and exchange data in Python , JSON Models is used to work with the json file.
+-CSV(Comma separated value) is used to store data inTabilar Form(row and collums) and separated with comma.
+-Python uses the CSV module to handel csv file.
+
+--EXCEPTION HANDLING - Dealing with Errors
+- Exceptions are python's way of signalling that somthing went to wrong. Always handle exceptions at the point where you can meaningfully respond to them.
+
+--------TRY-("Code that may cause an error")--------Except-("Handles the error")--
+------Finally-("Run code whether error occurs or not")
+
+
+--------------------Raising and creating-{"RAising-("Reasing an exception means manually triggering an error using the 'raise keyword'")"}  ---{"CUstom Exception-("Custom Exception are user-defined error class created by inheriting from Exception Class. Used to handle specific errors in programes")"}
+
+--------------Modeules and Packages--({Module:-(module is a single python file that can contain function, class, variables or that can be reused in other program.) ---{Packages-(A packages is a collection of multiple modules organized in a folder.)}})
+
+--Modele- Single File 
+--Package- Folder Containing Models 
+
+-----Virtual Environments --("Essentila for real project")
+--a Virtual Environment is an isolated environment used to manage project specific pyhton packages and dependencies.
+ 
